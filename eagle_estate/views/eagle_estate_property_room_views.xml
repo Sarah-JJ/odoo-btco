@@ -21,11 +21,11 @@
             <field name="name">eagle.estate.property.room.tree</field>
             <field name="model">eagle.estate.property.room</field>
             <field name="arch" type="xml">
-                <tree>
+                <list>
                     <field name="type"/>
                     <field name="area"/>
                     <field name="property_id"/>
-                </tree>
+                </list>
             </field>
         </record>
 
