@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+eagle_estate_property_access,EagleEstatePropertyAccess,model_eagle_estate_property,base.group_user,1,1,1,1
+eagle_estate_property_room_access,EagleEstatePropertyRoomAccess,model_eagle_estate_property_room,base.group_user,1,1,1,1
+eagle_estate_tag_access,EagleEstatePropertyTagAccess,model_eagle_estate_tag,base.group_user,1,1,1,1
