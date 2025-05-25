@@ -23,6 +23,7 @@ class EagleProperty(models.Model):
         'attachment_id',
         string='Attachments'
     )
+
     @api.model_create_multi
     def create(self, vals):
         # Call the original create method

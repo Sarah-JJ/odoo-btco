@@ -4,5 +4,6 @@
         <menuitem id="eagle_estate_menu" name="Eagle Estate" web_icon="eagle_estate,static/description/icon.png"/>
         <menuitem id="eagle_estate_property_menu" parent="eagle_estate_menu" name="Properties" action="eagle_estate_property_window_action"/>
         <menuitem id="eagle_estate_property_room_menu" parent="eagle_estate_menu" name="Rooms" action="eagle_estate_property_room_window_action"/>
+        <menuitem id="eagle_estate_tag_menu" parent="eagle_estate_menu" name="Tags" action="eagle_estate_tag_window_action"/>
     </data>
 </odoo>

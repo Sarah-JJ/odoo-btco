@@ -14,5 +14,12 @@
             <field name="res_model">eagle.estate.property.room</field>
             <field name="view_mode">list</field>
         </record>
+
+        <record id="eagle_estate_tag_window_action" model="ir.actions.act_window">
+            <field name="name">Tags</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">eagle.estate.tag</field>
+            <field name="view_mode">list</field>
+        </record>
     </data>
 </odoo>
