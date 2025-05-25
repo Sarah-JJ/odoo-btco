@@ -22,6 +22,7 @@
         "security/ir.model.access.csv",
         "views/eagle_estate_property_views.xml",
         "views/eagle_estate_property_room_views.xml",
+        "views/eagle_estate_tag_views.xml",
     ],
     "application": True,
 }
