@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="eagle_estate_tag_form" model="ir.ui.view">
+        <record id="eagle_estate_tag_list" model="ir.ui.view">
             <field name="name">eagle.estate.tag.list</field>
             <field name="model">eagle.estate.tag</field>
             <field name="arch" type="xml">
@@ -9,6 +9,21 @@
                     <field name="name" string="Name"/>
                     <field name="color" widget="color_picker" string="Color"/>
                 </list>
+            </field>
+        </record>
+
+        <record id="eagle_estate_tag_form" model="ir.ui.view">
+            <field name="name">eagle.estate.tag.form</field>
+            <field name="model">eagle.estate.tag</field>
+            <field name="arch" type="xml">
+                <form class="o_form_view">
+                    <sheet>
+                        <group>
+                            <field name="name" string="Name"/>
+                            <field name="color" widget="color_picker" string="Color"/>
+                        </group>
+                    </sheet>
+                </form>
             </field>
         </record>
     </data>
